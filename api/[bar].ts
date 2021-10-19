@@ -5,5 +5,5 @@ export default (request: VercelRequest, response: VercelResponse) => {
     query: { bar },
   } = request;
 
-  response.status(200).send(`Hello ${bar}`);
+  response.status(200).send(`Hello ${bar}!`);
 };
